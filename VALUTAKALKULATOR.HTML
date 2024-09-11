@@ -1,0 +1,15 @@
+fun NOK-EUR(nok_belop):
+  nok_belop * 0.084
+end
+
+fun NOK-USD(nok_belop):
+  nok_belop * 0.093
+end
+USD = 0.093 
+EUR = 0.084
+fun NOK-EUR_or_USD(nok_belop,valuta):
+  if valuta == USD:
+    print(nok_belop * valuta)
+  else if valuta == EUR:
+    print(nok_belop * valuta)
+  end end
